@@ -1259,5 +1259,5 @@ if (isset($_GET['tab']) && in_array($_GET['tab'], array("sysadmin", "adlists", "
 <script src="scripts/pi-hole/js/settings.js"></script>
 
 <?php
-require "scripts/pi-hole/php/footer.php";
+    require "scripts/pi-hole/php/footer.php";
 ?>

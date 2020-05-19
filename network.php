@@ -73,9 +73,9 @@ $token = $_SESSION['token'];
 </div>
 <!-- /.row -->
 
+<script src="scripts/pi-hole/js/ip-address-sorting.js"></script>
+<script src="scripts/pi-hole/js/network.js"></script>
+
 <?php
     require "scripts/pi-hole/php/footer.php";
 ?>
-
-<script src="scripts/pi-hole/js/ip-address-sorting.js"></script>
-<script src="scripts/pi-hole/js/network.js"></script>

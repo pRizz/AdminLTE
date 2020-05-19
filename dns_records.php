@@ -93,5 +93,5 @@
 <script src="scripts/pi-hole/js/customdns.js"></script>
 
 <?php
-require "scripts/pi-hole/php/footer.php";
+    require "scripts/pi-hole/php/footer.php";
 ?>

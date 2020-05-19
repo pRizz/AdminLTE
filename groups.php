@@ -75,5 +75,5 @@
 <script src="scripts/pi-hole/js/groups.js"></script>
 
 <?php
-require "scripts/pi-hole/php/footer.php";
+    require "scripts/pi-hole/php/footer.php";
 ?>

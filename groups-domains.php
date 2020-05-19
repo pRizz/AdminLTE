@@ -143,5 +143,5 @@
 <script src="scripts/pi-hole/js/groups-domains.js"></script>
 
 <?php
-require "scripts/pi-hole/php/footer.php";
+    require "scripts/pi-hole/php/footer.php";
 ?>
