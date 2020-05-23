@@ -79,5 +79,12 @@
 <script src="scripts/vendor/iCheck.min.js"></script>
 
 <script src="scripts/pi-hole/js/footer.js"></script>
+
+<?php if (isset($extra_scripts)) {
+    foreach($extra_scripts as $script){
+        echo "<script src="$script"></script>" . "<br>";
+    }
+}
+?>
 </body>
 </html>

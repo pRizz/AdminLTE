@@ -156,8 +156,10 @@ if(strlen($showing) > 0)
 </div>
 <!-- /.row -->
 
-<script src="scripts/pi-hole/js/queries.js"></script>
-
 <?php
+    $extra_scripts = [
+        "scripts/pi-hole/js/queries.js"
+    ];
+
     require "scripts/pi-hole/php/footer.php";
 ?>

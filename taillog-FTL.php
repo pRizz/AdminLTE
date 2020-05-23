@@ -16,8 +16,10 @@
 <pre id="output" style="width: 100%; height: 100%; max-height:650px; overflow-y:scroll;"></pre>
 <input type="checkbox" name="active" id="active" checked id="chk2"><label for="active">Automatic scrolling on update</label>
 
-<script src="scripts/pi-hole/js/taillog-FTL.js"></script>
-
 <?php
+    $extra_scripts = [
+        "scripts/pi-hole/js/taillog-FTL.js"
+    ];
+
     require "scripts/pi-hole/php/footer.php";
 ?>

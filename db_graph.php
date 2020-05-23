@@ -76,9 +76,11 @@ $token = $_SESSION['token'];
   </div>
 </div>
 
-<script src="scripts/vendor/daterangepicker.js"></script>
-<script src="scripts/pi-hole/js/db_graph.js"></script>
-
 <?php
+    $extra_scripts = [
+        "scripts/vendor/daterangepicker.js",
+        "scripts/pi-hole/js/db_graph.js"
+    ];
+
     require "scripts/pi-hole/php/footer.php";
 ?>
